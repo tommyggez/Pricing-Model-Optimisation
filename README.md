@@ -1,5 +1,6 @@
 # A general pricing optimiser based on probability theory and net utility economic model
 *Check out the notebook to see results and useful functions*
+
 This model operates under the assumption that individuals have a internal value V of the good you are selling, and will buy it if the net utility = V-p is positive.
 We assume internal value is normally distributed in the population, and we know the mean and standard deviation.
 We can calculate the optimal price to be the price p that maximises (p-c)*E(sales), where c is the variable cost of production of one item and E(sales) is the expected number of sales.
